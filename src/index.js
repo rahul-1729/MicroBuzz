@@ -9,11 +9,4 @@ app.listen(3000,async ()=>{
     console.log("server started");
     await connect ();
     console.log('MongoDb connected');
-   
-    const tweetRepo = new TweetRepository();
-     const tweet =await tweetRepo.create({content:'With hooks'})
-    console.log(tweet)
-    // const tweet = await tweetRepo.getAll(2,4);
-     
-    // console.log(tweet[1].contentWithEmail) ;
 })
