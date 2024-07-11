@@ -15,5 +15,5 @@ app.listen(3000,async ()=>{
     console.log(tweet)
     // const tweet = await tweetRepo.getAll(2,4);
      
-    // console.log(tweet[1].contentWithEmail);
+    // console.log(tweet[1].contentWithEmail) ;
 })
